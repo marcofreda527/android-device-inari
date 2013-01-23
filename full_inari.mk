@@ -1,6 +1,5 @@
 $(call inherit-product, device/qcom/common/common.mk)
 PRODUCT_COPY_FILES := \
-  device/qcom/inari/Fts-touchscreen.idc:system/usr/idc/Fts-touchscreen.idc \
   device/qcom/inari/cyttsp-i2c.idc:system/usr/idc/cyttsp-i2c.idc \
   device/qcom/inari/media_profiles.xml:system/etc/media_profiles.xml \
   device/qcom/msm7627a/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
